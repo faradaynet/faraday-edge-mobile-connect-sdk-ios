@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "FNMobileConnect",
-            url:"https://github.com/faradaynet/edge-ios-sdk/releases/download/v0.0.1/FNMobileConnect.xcframework.zip",
+            url:"https://github.com/faradaynet/faraday-edge-mobile-connect-sdk-ios/releases/download/v1.0.0/FNMobileConnect.xcframework.zip",
             checksum: "80365b20ff03826e524b7b921e2f0dee87cf2d7c6f3361f7870ec14886a35e95"
         ),
     ]
