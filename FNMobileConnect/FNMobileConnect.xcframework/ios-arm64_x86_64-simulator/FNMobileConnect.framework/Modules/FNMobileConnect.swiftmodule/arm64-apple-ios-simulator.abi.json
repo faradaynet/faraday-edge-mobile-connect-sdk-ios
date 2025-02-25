@@ -1,0 +1,2795 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FNMobileConnect",
+    "printedName": "FNMobileConnect",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FNMobileConnect"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FNMobileConnect"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FNMobileConnect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FNEdgeWifiConnectionStatus",
+        "printedName": "FNEdgeWifiConnectionStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ERROR_NONE",
+            "printedName": "ERROR_NONE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC10ERROR_NONESivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC10ERROR_NONESivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC10ERROR_NONESivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC10ERROR_NONESivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_CONFIGURATION",
+            "printedName": "ERROR_CONFIGURATION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC19ERROR_CONFIGURATIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC19ERROR_CONFIGURATIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC19ERROR_CONFIGURATIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC19ERROR_CONFIGURATIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_DATA_PROVIDED_EMPTY",
+            "printedName": "ERROR_DATA_PROVIDED_EMPTY",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_DATA_PROVIDED_EMPTYSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_DATA_PROVIDED_EMPTYSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_DATA_PROVIDED_EMPTYSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_DATA_PROVIDED_EMPTYSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MAX_RETRIES_REACHED",
+            "printedName": "ERROR_MAX_RETRIES_REACHED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_MAX_RETRIES_REACHEDSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_MAX_RETRIES_REACHEDSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_MAX_RETRIES_REACHEDSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_MAX_RETRIES_REACHEDSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_EXCEPTION",
+            "printedName": "ERROR_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC15ERROR_EXCEPTIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC15ERROR_EXCEPTIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC15ERROR_EXCEPTIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC15ERROR_EXCEPTIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_EDGE_EXCEPTION",
+            "printedName": "ERROR_EDGE_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC20ERROR_EDGE_EXCEPTIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC20ERROR_EDGE_EXCEPTIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC20ERROR_EDGE_EXCEPTIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC20ERROR_EDGE_EXCEPTIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_GENERIC_EXCEPTION",
+            "printedName": "ERROR_GENERIC_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC23ERROR_GENERIC_EXCEPTIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC23ERROR_GENERIC_EXCEPTIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC23ERROR_GENERIC_EXCEPTIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC23ERROR_GENERIC_EXCEPTIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_FN_CODE",
+            "printedName": "ERROR_FN_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC13ERROR_FN_CODESivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_EDGE_REQUEST_EXCEPTION",
+            "printedName": "ERROR_EDGE_REQUEST_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC28ERROR_EDGE_REQUEST_EXCEPTIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC28ERROR_EDGE_REQUEST_EXCEPTIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC28ERROR_EDGE_REQUEST_EXCEPTIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC28ERROR_EDGE_REQUEST_EXCEPTIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_INVALID_RESPONSE",
+            "printedName": "ERROR_INVALID_RESPONSE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC22ERROR_INVALID_RESPONSESivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC22ERROR_INVALID_RESPONSESivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC22ERROR_INVALID_RESPONSESivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC22ERROR_INVALID_RESPONSESivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_AUTHENTICATE_FAILED",
+            "printedName": "ERROR_AUTHENTICATE_FAILED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_AUTHENTICATE_FAILEDSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_AUTHENTICATE_FAILEDSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_AUTHENTICATE_FAILEDSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC25ERROR_AUTHENTICATE_FAILEDSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_UNSUCCESSFUL_CONNECTION",
+            "printedName": "ERROR_UNSUCCESSFUL_CONNECTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC29ERROR_UNSUCCESSFUL_CONNECTIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC29ERROR_UNSUCCESSFUL_CONNECTIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC29ERROR_UNSUCCESSFUL_CONNECTIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC29ERROR_UNSUCCESSFUL_CONNECTIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_AUTHENTICATE_REQUEST_EXCEPTION",
+            "printedName": "ERROR_AUTHENTICATE_REQUEST_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_AUTHENTICATE_REQUEST_EXCEPTIONSivpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_AUTHENTICATE_REQUEST_EXCEPTIONSivpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_AUTHENTICATE_REQUEST_EXCEPTIONSivgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_AUTHENTICATE_REQUEST_EXCEPTIONSivgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_NONE",
+            "printedName": "ERROR_MESSAGE_NONE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC18ERROR_MESSAGE_NONESSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC18ERROR_MESSAGE_NONESSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC18ERROR_MESSAGE_NONESSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC18ERROR_MESSAGE_NONESSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALL",
+            "printedName": "ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALLSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALLSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALLSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALLSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_DATA_EMPTY_MSISDN",
+            "printedName": "ERROR_MESSAGE_DATA_EMPTY_MSISDN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_DATA_EMPTY_MSISDNSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_DATA_EMPTY_MSISDNSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_DATA_EMPTY_MSISDNSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_DATA_EMPTY_MSISDNSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_INVALID_BASE_URL",
+            "printedName": "ERROR_MESSAGE_INVALID_BASE_URL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_BASE_URLSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_BASE_URLSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_BASE_URLSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_BASE_URLSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_INVALID_CONNECTION_URLS",
+            "printedName": "ERROR_MESSAGE_INVALID_CONNECTION_URLS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_INVALID_CONNECTION_URLSSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_INVALID_CONNECTION_URLSSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_INVALID_CONNECTION_URLSSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_INVALID_CONNECTION_URLSSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_CREATE_DOMAIN",
+            "printedName": "ERROR_MESSAGE_CREATE_DOMAIN",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CREATE_DOMAINSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CREATE_DOMAINSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CREATE_DOMAINSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CREATE_DOMAINSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_CONSTRUCT_URL",
+            "printedName": "ERROR_MESSAGE_CONSTRUCT_URL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CONSTRUCT_URLSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CONSTRUCT_URLSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CONSTRUCT_URLSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC27ERROR_MESSAGE_CONSTRUCT_URLSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_EDGE_REQUEST_EXCEPTION",
+            "printedName": "ERROR_MESSAGE_EDGE_REQUEST_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_MESSAGE_EDGE_REQUEST_EXCEPTIONSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_MESSAGE_EDGE_REQUEST_EXCEPTIONSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_MESSAGE_EDGE_REQUEST_EXCEPTIONSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC36ERROR_MESSAGE_EDGE_REQUEST_EXCEPTIONSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_INVALID_RESPONSE",
+            "printedName": "ERROR_MESSAGE_INVALID_RESPONSE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_RESPONSESSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_RESPONSESSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_RESPONSESSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_RESPONSESSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_FN_CODE",
+            "printedName": "ERROR_MESSAGE_FN_CODE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC21ERROR_MESSAGE_FN_CODESSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC21ERROR_MESSAGE_FN_CODESSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC21ERROR_MESSAGE_FN_CODESSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC21ERROR_MESSAGE_FN_CODESSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_INVALID_PARAMETERS",
+            "printedName": "ERROR_INVALID_PARAMETERS",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC24ERROR_INVALID_PARAMETERSSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC24ERROR_INVALID_PARAMETERSSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC24ERROR_INVALID_PARAMETERSSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC24ERROR_INVALID_PARAMETERSSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_INVALID_REDIRECT_URL",
+            "printedName": "ERROR_MESSAGE_INVALID_REDIRECT_URL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_INVALID_REDIRECT_URLSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_INVALID_REDIRECT_URLSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_INVALID_REDIRECT_URLSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_INVALID_REDIRECT_URLSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_GENERIC_EXCEPTION",
+            "printedName": "ERROR_MESSAGE_GENERIC_EXCEPTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_GENERIC_EXCEPTIONSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_GENERIC_EXCEPTIONSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_GENERIC_EXCEPTIONSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC31ERROR_MESSAGE_GENERIC_EXCEPTIONSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_MAX_RETRIES_REACHED",
+            "printedName": "ERROR_MESSAGE_MAX_RETRIES_REACHED",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC33ERROR_MESSAGE_MAX_RETRIES_REACHEDSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC33ERROR_MESSAGE_MAX_RETRIES_REACHEDSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC33ERROR_MESSAGE_MAX_RETRIES_REACHEDSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC33ERROR_MESSAGE_MAX_RETRIES_REACHEDSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_SUCCESS_CONNECTION",
+            "printedName": "ERROR_MESSAGE_SUCCESS_CONNECTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC32ERROR_MESSAGE_SUCCESS_CONNECTIONSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC32ERROR_MESSAGE_SUCCESS_CONNECTIONSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC32ERROR_MESSAGE_SUCCESS_CONNECTIONSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC32ERROR_MESSAGE_SUCCESS_CONNECTIONSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_UNSUCCESSFUL_CONNECTION",
+            "printedName": "ERROR_MESSAGE_UNSUCCESSFUL_CONNECTION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_UNSUCCESSFUL_CONNECTIONSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_UNSUCCESSFUL_CONNECTIONSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_UNSUCCESSFUL_CONNECTIONSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC37ERROR_MESSAGE_UNSUCCESSFUL_CONNECTIONSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATE",
+            "printedName": "ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATE",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC39ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATESSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC39ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATESSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC39ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATESSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC39ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATESSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_AUTHENTICATE_REQUEST",
+            "printedName": "ERROR_MESSAGE_AUTHENTICATE_REQUEST",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_AUTHENTICATE_REQUESTSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_AUTHENTICATE_REQUESTSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_AUTHENTICATE_REQUESTSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC34ERROR_MESSAGE_AUTHENTICATE_REQUESTSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_MESSAGE_INVALID_INTERVAL",
+            "printedName": "ERROR_MESSAGE_INVALID_INTERVAL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_INTERVALSSvpZ",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_INTERVALSSvpZ",
+            "moduleName": "FNMobileConnect",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_INTERVALSSvgZ",
+                "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC30ERROR_MESSAGE_INVALID_INTERVALSSvgZ",
+                "moduleName": "FNMobileConnect",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "FNMobileConnect.FNEdgeWifiConnectionStatus",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC7success9errorCode7messageACSb_SiSStcfc",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC7success9errorCode7messageACSb_SiSStcfc",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "FNMobileConnect.FNEdgeWifiConnectionStatus",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC7successACSb_tcfc",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC7successACSb_tcfc",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:redirectUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "FNMobileConnect.FNEdgeWifiConnectionStatus",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC7success9errorCode7message11redirectUrlACSb_SiS2Stcfc",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC7success9errorCode7message11redirectUrlACSb_SiS2Stcfc",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(success:errorCode:message:mac:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiConnectionStatus",
+                "printedName": "FNMobileConnect.FNEdgeWifiConnectionStatus",
+                "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC7success9errorCode7message3macACSb_SiS2Stcfc",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC7success9errorCode7message3macACSb_SiS2Stcfc",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getSuccess",
+            "printedName": "getSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC10getSuccessSbyF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC10getSuccessSbyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSuccess",
+            "printedName": "setSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC10setSuccessyySbF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC10setSuccessyySbF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getErrorCode",
+            "printedName": "getErrorCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC12getErrorCodeSiyF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC12getErrorCodeSiyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setErrorCode",
+            "printedName": "setErrorCode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC12setErrorCodeyySiF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC12setErrorCodeyySiF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessage",
+            "printedName": "getMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC10getMessageSSyF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC10getMessageSSyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMessage",
+            "printedName": "setMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC10setMessageyySSF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC10setMessageyySSF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRedirectUrl",
+            "printedName": "getRedirectUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC14getRedirectUrlSSyF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC14getRedirectUrlSSyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRedirectUrl",
+            "printedName": "setRedirectUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC14setRedirectUrlyySSF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC14setRedirectUrlyySSF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMac",
+            "printedName": "getMac()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC6getMacSSyF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC6getMacSSyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMac",
+            "printedName": "setMac(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC6setMacyySSF",
+            "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC6setMacyySSF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC",
+        "mangledName": "$s15FNMobileConnect26FNEdgeWifiConnectionStatusC",
+        "moduleName": "FNMobileConnect",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FNMobileConnect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FNEdgeWifiRequests",
+        "printedName": "FNEdgeWifiRequests",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeWifiRequests",
+                "printedName": "FNMobileConnect.FNEdgeWifiRequests",
+                "usr": "s:15FNMobileConnect18FNEdgeWifiRequestsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FNMobileConnect18FNEdgeWifiRequestsCACycfc",
+            "mangledName": "$s15FNMobileConnect18FNEdgeWifiRequestsCACycfc",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15FNMobileConnect18FNEdgeWifiRequestsC",
+        "mangledName": "$s15FNMobileConnect18FNEdgeWifiRequestsC",
+        "moduleName": "FNMobileConnect",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FNMobileConnect"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FNEdgeMobileConnect",
+        "printedName": "FNEdgeMobileConnect",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FNEdgeMobileConnect",
+                "printedName": "FNMobileConnect.FNEdgeMobileConnect",
+                "usr": "s:15FNMobileConnect012FNEdgeMobileB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0CACycfc",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0CACycfc",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getMaxRetryCount",
+            "printedName": "getMaxRetryCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C16getMaxRetryCountSiyF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C16getMaxRetryCountSiyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMaxRetryCount",
+            "printedName": "setMaxRetryCount(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C16setMaxRetryCountyySiF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C16setMaxRetryCountyySiF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRetryInterval",
+            "printedName": "getRetryInterval()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C16getRetryIntervalSdyF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C16getRetryIntervalSdyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRetryInterval",
+            "printedName": "setRetryInterval(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C16setRetryIntervalyySdF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C16setRetryIntervalyySdF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBaseUrl",
+            "printedName": "getBaseUrl()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C10getBaseUrlSSyF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C10getBaseUrlSSyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBaseUrl",
+            "printedName": "setBaseUrl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C10setBaseUrlyySSF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C10setBaseUrlyySSF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConnectionUrls",
+            "printedName": "getConnectionUrls()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C17getConnectionUrlsSaySSGyF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C17getConnectionUrlsSaySSGyF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConnectionUrls",
+            "printedName": "setConnectionUrls(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C17setConnectionUrlsyySaySSGF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C17setConnectionUrlsyySaySSGF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectWifi",
+            "printedName": "connectWifi(deeplinkUrl:countryCode:msisdn:passport:nationalId:marketingPermission:shareDataPermission:storeDataPermission:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FNMobileConnect.FNEdgeWifiConnectionStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FNEdgeWifiConnectionStatus",
+                    "printedName": "FNMobileConnect.FNEdgeWifiConnectionStatus",
+                    "usr": "s:15FNMobileConnect26FNEdgeWifiConnectionStatusC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15FNMobileConnect012FNEdgeMobileB0C11connectWifi11deeplinkUrl11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataP005storerP010completionySS_S4SS3byAA0cF16ConnectionStatusCctF",
+            "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C11connectWifi11deeplinkUrl11countryCode6msisdn8passport10nationalId19marketingPermission09shareDataP005storerP010completionySS_S4SS3byAA0cF16ConnectionStatusCctF",
+            "moduleName": "FNMobileConnect",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15FNMobileConnect012FNEdgeMobileB0C",
+        "mangledName": "$s15FNMobileConnect012FNEdgeMobileB0C",
+        "moduleName": "FNMobileConnect",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FNMobileConnect"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 69,
+      "length": 56,
+      "value": "\"http:\/\/captive.faraday.net\/?cmd=redirect&arubalp=12345\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 18,
+      "value": "\"\/api\/mobileLogin\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 24,
+      "value": "\"https:\/\/www.google.com\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 27,
+      "value": "\"authenticatedSuccessfully\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 20,
+      "value": "\"authenticateFailed\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 395,
+      "length": 28,
+      "value": "\"cmd=redirect&arubalp=12345\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 3,
+      "value": "\"F\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 335,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 394,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 561,
+      "length": 3,
+      "value": "201"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 3,
+      "value": "202"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 665,
+      "length": 3,
+      "value": "203"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 727,
+      "length": 3,
+      "value": "204"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 783,
+      "length": 3,
+      "value": "205"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 847,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 910,
+      "length": 3,
+      "value": "301"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 3,
+      "value": "302"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 10,
+      "value": "\"No error\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 108,
+      "value": "\"At least one of the following details must be provided: MSISDN with country code, passport, or national ID\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1288,
+      "length": 47,
+      "value": "\"Both MSISDN and country code must be provided\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 50,
+      "value": "\"Invalid base URL. Please check the configuration\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 56,
+      "value": "\"Invalid connection URL. Please check the configuration\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1613,
+      "length": 42,
+      "value": "\"Invalid URL provided for domain creation\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 43,
+      "value": "\"Error occurred while constructing the URL\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1813,
+      "length": 39,
+      "value": "\"Pre-authentication exception occurred\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 27,
+      "value": "\"Invalid response received\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 1982,
+      "length": 60,
+      "value": "\"Please check the issue with your service provider. Error: \""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2092,
+      "length": 29,
+      "value": "\"Invalid parameters provided\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 68,
+      "value": "\"Unexpected redirect URL. Please check connection URL configuration\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2306,
+      "length": 51,
+      "value": "\"EdgeSDK encountered a generic exception. Message:\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 44,
+      "value": "\"Max retry attempts reached. Request failed\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 74,
+      "value": "\"Guest WiFi authentication successful. The client now has internet access\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2655,
+      "length": 69,
+      "value": "\"Client authentication succeeded, but internet access is unavailable\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2789,
+      "length": 76,
+      "value": "\"Guest WiFi authentication failed. The client does not have internet access\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 2925,
+      "length": 42,
+      "value": "\"Guest WiFi authentication request failed\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeWifiConnectionStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 3023,
+      "length": 89,
+      "value": "\"Request interval value must be between 0.1 and 2.0. Please check interval configuration\""
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeMobileConnect.swift",
+      "kind": "IntegerLiteral",
+      "offset": 96,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeMobileConnect.swift",
+      "kind": "FloatLiteral",
+      "offset": 139,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/odemir\/Desktop\/faraday\/FNMobileConnect\/FNMobileConnect\/FNEdgeMobileConnect.swift",
+      "kind": "Array",
+      "offset": 244,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

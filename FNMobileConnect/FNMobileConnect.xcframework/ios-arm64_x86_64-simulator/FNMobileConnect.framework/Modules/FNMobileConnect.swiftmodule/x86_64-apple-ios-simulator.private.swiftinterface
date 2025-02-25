@@ -1,0 +1,74 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name FNMobileConnect
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class FNEdgeWifiConnectionStatus {
+  public static let ERROR_NONE: Swift.Int
+  public static let ERROR_CONFIGURATION: Swift.Int
+  public static let ERROR_DATA_PROVIDED_EMPTY: Swift.Int
+  public static let ERROR_MAX_RETRIES_REACHED: Swift.Int
+  public static let ERROR_EXCEPTION: Swift.Int
+  public static let ERROR_EDGE_EXCEPTION: Swift.Int
+  public static let ERROR_GENERIC_EXCEPTION: Swift.Int
+  public static let ERROR_FN_CODE: Swift.Int
+  public static let ERROR_EDGE_REQUEST_EXCEPTION: Swift.Int
+  public static let ERROR_INVALID_RESPONSE: Swift.Int
+  public static let ERROR_AUTHENTICATE_FAILED: Swift.Int
+  public static let ERROR_UNSUCCESSFUL_CONNECTION: Swift.Int
+  public static let ERROR_AUTHENTICATE_REQUEST_EXCEPTION: Swift.Int
+  public static let ERROR_MESSAGE_NONE: Swift.String
+  public static let ERROR_MESSAGE_DATA_EMPTY_LOGIN_ALL: Swift.String
+  public static let ERROR_MESSAGE_DATA_EMPTY_MSISDN: Swift.String
+  public static let ERROR_MESSAGE_INVALID_BASE_URL: Swift.String
+  public static let ERROR_MESSAGE_INVALID_CONNECTION_URLS: Swift.String
+  public static let ERROR_MESSAGE_CREATE_DOMAIN: Swift.String
+  public static let ERROR_MESSAGE_CONSTRUCT_URL: Swift.String
+  public static let ERROR_MESSAGE_EDGE_REQUEST_EXCEPTION: Swift.String
+  public static let ERROR_MESSAGE_INVALID_RESPONSE: Swift.String
+  public static let ERROR_MESSAGE_FN_CODE: Swift.String
+  public static let ERROR_INVALID_PARAMETERS: Swift.String
+  public static let ERROR_MESSAGE_INVALID_REDIRECT_URL: Swift.String
+  public static let ERROR_MESSAGE_GENERIC_EXCEPTION: Swift.String
+  public static let ERROR_MESSAGE_MAX_RETRIES_REACHED: Swift.String
+  public static let ERROR_MESSAGE_SUCCESS_CONNECTION: Swift.String
+  public static let ERROR_MESSAGE_UNSUCCESSFUL_CONNECTION: Swift.String
+  public static let ERROR_MESSAGE_UNSUCCESSFUL_AUTHENTICATE: Swift.String
+  public static let ERROR_MESSAGE_AUTHENTICATE_REQUEST: Swift.String
+  public static let ERROR_MESSAGE_INVALID_INTERVAL: Swift.String
+  public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String)
+  public init(success: Swift.Bool)
+  public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String, redirectUrl: Swift.String)
+  public init(success: Swift.Bool, errorCode: Swift.Int, message: Swift.String, mac: Swift.String)
+  public func getSuccess() -> Swift.Bool
+  public func setSuccess(_ value: Swift.Bool)
+  public func getErrorCode() -> Swift.Int
+  public func setErrorCode(_ value: Swift.Int)
+  public func getMessage() -> Swift.String
+  public func setMessage(_ value: Swift.String)
+  public func getRedirectUrl() -> Swift.String
+  public func setRedirectUrl(_ value: Swift.String)
+  public func getMac() -> Swift.String
+  public func setMac(_ value: Swift.String)
+  @objc deinit
+}
+public class FNEdgeWifiRequests {
+  public init()
+  @objc deinit
+}
+public class FNEdgeMobileConnect {
+  public init()
+  public func getMaxRetryCount() -> Swift.Int
+  public func setMaxRetryCount(_ value: Swift.Int)
+  public func getRetryInterval() -> Swift.Double
+  public func setRetryInterval(_ value: Swift.Double)
+  public func getBaseUrl() -> Swift.String
+  public func setBaseUrl(_ value: Swift.String)
+  public func getConnectionUrls() -> [Swift.String]
+  public func setConnectionUrls(_ value: [Swift.String])
+  public func connectWifi(deeplinkUrl: Swift.String, countryCode: Swift.String, msisdn: Swift.String, passport: Swift.String, nationalId: Swift.String, marketingPermission: Swift.Bool, shareDataPermission: Swift.Bool, storeDataPermission: Swift.Bool, completion: @escaping (FNMobileConnect.FNEdgeWifiConnectionStatus) -> Swift.Void)
+  @objc deinit
+}
