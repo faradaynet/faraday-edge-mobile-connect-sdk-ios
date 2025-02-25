@@ -1,1 +1,1 @@
-# edge-ios-sdk
+# faraday-edge-mobile-connect-sdk-ios
