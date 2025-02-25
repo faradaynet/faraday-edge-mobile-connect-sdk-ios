@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "edge-ios-sdk",
+    name: "faraday-edge-mobile-connect-sdk-ios",
     platforms: [
         .iOS(.v13),
     ],
     products: [
         .library(
-            name: "edge-ios-sdk",
+            name: "faraday-edge-mobile-connect-sdk-ios",
             targets: ["FNMobileConnect"])
     ],
     targets: [
